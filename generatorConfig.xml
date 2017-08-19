@@ -19,7 +19,7 @@
 
 		<!--数据库连接的信息：驱动类、连接地址、用户名、密码 -->
 		<jdbcConnection driverClass="com.mysql.jdbc.Driver"
-			connectionURL="jdbc:mysql://localhost:3306/dianshang" userId="root"
+			connectionURL="jdbc:mysql://localhost:3306/com.dianshang" userId="root"
 			password="123">
 		</jdbcConnection>
 
@@ -30,7 +30,7 @@
 		</javaTypeResolver>
 
 		<!-- targetProject:生成PO类的位置 -->
-		<javaModelGenerator targetPackage="com.feng.core.pojo"
+		<javaModelGenerator targetPackage="com.dianshang.core.pojo"
 			targetProject=".\src">
 			<!-- enableSubPackages:是否让schema作为包的后缀 -->
 			<property name="enableSubPackages" value="false" />
